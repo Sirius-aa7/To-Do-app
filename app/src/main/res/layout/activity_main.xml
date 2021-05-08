@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@color/cream"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -12,7 +13,7 @@
         android:id="@+id/tasksText"
         android:textStyle="bold"
         android:text="@string/tasks"
-        android:textColor="@android:color/black"
+        android:textColor="@color/red"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
@@ -43,7 +44,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
-        android:backgroundTint="@android:color/holo_green_dark"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:contentDescription="@string/todo"
         android:scrollbarThumbVertical="@drawable/ic_baseline_add"
 
